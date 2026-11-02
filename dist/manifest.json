@@ -1,0 +1,12 @@
+{
+  "name": "Xiaomi Watch Time Sync",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "description": "小米 / REDMI 手表卡死后回滚 1970 时，一键把系统时间写回去",
+  "author": "Azusa",
+  "website": "https://github.com/sxsznb/Xiaomi-Watch-Time-Sync",
+  "entry": "plugin.wasm",
+  "wasi_version": 3,
+  "api_level": 4,
+  "permissions": ["device", "request", "register_transport_recv"]
+}
